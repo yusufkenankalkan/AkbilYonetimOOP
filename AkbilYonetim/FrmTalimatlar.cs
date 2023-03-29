@@ -18,7 +18,7 @@ namespace AkbilYonetim
         IVeriTabaniIslemleri veriTabaniIslemleri = new SQLVeriTabaniIslemleri(GenelIslemler.SinifSQLBaglantiCumlesi);
         public FrmTalimatlar()
         {
-            InitializeComponent();
+            InitializeComponent(); 
         }
 
         private void FrmTalimatlar_Load(object sender, EventArgs e)
